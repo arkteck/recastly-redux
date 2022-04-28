@@ -3,7 +3,7 @@ import VideoPlayer from '../components/VideoPlayer.js';
 
 var mapStateToProps = (state) => {
   return {
-    currentVideo: state.currentVideo
+    video: state.currentVideo
   }
 }
 var VideoPlayerContainer = connect(mapStateToProps)(VideoPlayer);
